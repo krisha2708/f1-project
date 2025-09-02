@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formula 1 Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <div class="logo">F1 Hub</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#guide">Beginner’s Guide</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#winners">Winners</a></li>
+        <li><a href="#teams">Teams & Drivers</a></li>
+        <li><a href="#news">News</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Welcome to Formula 1 Hub</h1>
+    <p>Your ultimate source for F1 updates, schedules, teams, and more.</p>
+    <a href="#guide" class="btn">Get Started</a>
+  </section>
+
+  <!-- Beginner’s Guide -->
+  <section id="guide" class="content">
+    <h2>Beginner’s Guide to Formula 1</h2>
+    <p>Formula 1 is the highest class of international racing for open-wheel cars. Each season consists of a series of races known as Grands Prix.</p>
+    <ul>
+      <li>🏎️ 20 drivers, 10 teams</li>
+      <li>📅 Season runs from March to December</li>
+      <li>🏆 Points system decides the champion</li>
+    </ul>
+  </section>
+
+  <!-- Schedule -->
+  <section id="schedule" class="content">
+    <h2>Upcoming Races</h2>
+    <table>
+      <tr><th>Grand Prix</th><th>Date</th><th>Time</th></tr>
+      <tr><td>Italian GP</td><td>8 Sept 2025</td><td>14:00 CET</td></tr>
+      <tr><td>Singapore GP</td><td>21 Sept 2025</td><td>20:00 SGT</td></tr>
+      <tr><td>Japanese GP</td><td>5 Oct 2025</td><td>13:00 JST</td></tr>
+    </table>
+  </section>
+
+  <!-- Past Winners -->
+  <section id="winners" class="content">
+    <h2>Past Grand Prix Winners</h2>
+    <ul>
+      <li>2024 World Champion – Max Verstappen (Red Bull)</li>
+      <li>2023 World Champion – Max Verstappen (Red Bull)</li>
+      <li>2022 World Champion – Max Verstappen (Red Bull)</li>
+    </ul>
+  </section>
+
+  <!-- Teams & Drivers -->
+  <section id="teams" class="content">
+    <h2>Teams & Drivers</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1607522370275-f14206abe5d3" alt="Red Bull Racing">
+        <h3>Red Bull Racing</h3>
+        <p>Drivers: Max Verstappen, Sergio Pérez</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1599940824399-b87987ceb72a" alt="Mercedes">
+        <h3>Mercedes</h3>
+        <p>Drivers: Lewis Hamilton, George Russell</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1581093588401-22af5c99a31f" alt="Ferrari">
+        <h3>Ferrari</h3>
+        <p>Drivers: Charles Leclerc, Carlos Sainz</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- News -->
+  <section id="news" class="content">
+    <h2>Latest News & Highlights</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a" alt="News">
+        <h3>Monza GP Preview</h3>
+        <p>All eyes on the Italian GP as teams prepare for a high-speed showdown.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" alt="News">
+        <h3>Driver Market Shakeup</h3>
+        <p>Rumors suggest big changes in the driver lineups for 2026.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Formula 1 Hub | Made with ❤️ for F1 fans</p>
+  </footer>
+</body>
+</html>
